@@ -1,3 +1,4 @@
+.myXpPro
 /*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
 
 
@@ -98,20 +99,24 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   @font-face {
-   	font-family: "Bellerose";
-   	src: url('../fonts/Bison-Bold(PersonalUse).ttf');
-   }
 
-   @font-face {
-     font-family: "Move";
-     src: url('../fonts/CaviarDreams_Bold.ttf');
-   }
+@font-face {
+  font-family: "Bellerose";
+  src: url('../fonts/Bison-Bold(PersonalUse).ttf');
+}
 
+@font-face {
+  font-family: "Move";
+  src: url('../fonts/CaviarDreams_Bold.ttf');
+}
+
+h2 {
+  display: none;
+}
 
 @media (min-width: 300px) {
   /*MOBILE VERSION*/
-  #menuDesk, #myXpPro figure {
+  #menuDesk, .myXpPro figure {
     display: none;
   }
   #myName {
@@ -139,7 +144,6 @@ textarea {
     position: fixed;
     width: 100%;
     z-index: 12;
-
   }
   #mySpec {
     width: 70%;
@@ -174,7 +178,7 @@ textarea {
     background-size: cover;
   }
   #formation {
-    margin:  0px;
+    margin: 0px;
     background-image: url(../img/formation-mobile.jpg);
     width: 100%;
     height: 200px;
@@ -203,7 +207,7 @@ textarea {
     background: rgba(255, 255, 255, 0.7);
     display: block;
   }
-  .opac-div #xpPro {
+  .opac-div .xpPro {
     font-size: 15.5px;
     font-weight: bolder;
     color: #2d3714;
@@ -224,7 +228,7 @@ textarea {
     text-decoration: none;
     opacity: 5;
   }
-  #myXpPro .presentationXP {
+  .myXpPro .presentationXP {
     width: 100%;
     border: 2px solid white;
     background-color: #2d3714;
@@ -235,20 +239,20 @@ textarea {
     margin: auto;
     opacity: .8
   }
-  #myXpPro .presentationXP p {
+  .myXpPro .presentationXP p {
     margin: 0px;
     color: white;
     text-align: center;
   }
-  #myXpPro .presentationXP .company {
+  .myXpPro .presentationXP .company {
     font-size: 15px;
     font-family: "Bellerose";
     font-weight: bolder;
   }
-  #myXpPro .presentationXP .xpDuration {
+  .myXpPro .presentationXP .xpDuration {
     font-size: 12px;
   }
-  #myXpPro .presentationXP .xpPosition {
+  .myXpPro .presentationXP .xpPosition {
     font-size: 15px;
     font-weight: bolder;
   }
@@ -267,7 +271,7 @@ textarea {
     padding-bottom: 7px;
     background: rgba(255, 255, 255, 0.7);
   }
-  #myXpPro .myMissions ul li {
+  .myXpPro .myMissions ul li {
     font-size: 10px;
     font-family: "Move";
   }
@@ -357,14 +361,14 @@ textarea {
   .opac-div {
     height: 320px;
   }
-  .opac-div #xpPro {
+  .opac-div .xpPro {
     margin: 89px 0px 0px 5px;
     font-size: 16px;
   }
   .asideOpacDiv a {
     font-size: 14px;
   }
-  #myXpPro .myMissions ul li {
+  .myXpPro .myMissions ul li {
     font-size: 10px;
     font-family: "Move";
   }
@@ -392,15 +396,13 @@ textarea {
   .opac-div {
     height: 420px;
   }
-  .opac-div #xpPro {
+  .opac-div .xpPro {
     margin: 109px 0px 0px 5px;
     font-size: 28px;
   }
-
-  #myXpPro .presentationXP .company {
-  font-size: 25px;
+  .myXpPro .presentationXP .company {
+    font-size: 25px;
   }
-
   .asideOpacDiv a {
     font-size: 20px;
   }
@@ -416,12 +418,10 @@ textarea {
     height: 50px;
     align-items: center;
   }
-
-  #myXpPro .myMissions ul li {
+  .myXpPro .myMissions ul li {
     font-size: 14px;
     font-family: "Move";
   }
-
   #menuDesk a {
     color: #404727;
     font-weight: bold;
@@ -433,65 +433,59 @@ textarea {
   #office {
     margin: 0px;
   }
-  #myXpPro .presentationXP {
+  .myXpPro .presentationXP {
     border: 0px;
     height: 90px;
   }
-
-  #myXpPro {
+  .myXpPro {
     display: flex;
     flex-wrap: wrap;
   }
-
-  #myXpPro .myMissions {
+  .myXpPro .myMissions {
     width: 50%;
     height: 350px;
     border: 0px;
     border-right: 2px solid #404727;
   }
-
-  #myXpPro figure {
+  .myXpPro figure {
     width: 50%;
     margin: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  #myXpPro figure img {
+  .myXpPro figure img {
     width: 90%;
   }
-  #myXpPro figure #aventa {
+  .myXpPro figure #aventaPic {
     width: 25%;
   }
-  #myXpPro figure #lyca {
+  .myXpPro figure #lyca {
     width: 43%;
     height: 350px;
   }
-  #myXpPro figure #courir {
+  .myXpPro figure #courirPic {
     width: 50%;
     height: 302px;
   }
-  #myXpPro figure #iut {
+  .myXpPro figure #iut {
     width: 50%;
   }
   #formation, #loisirs {
     margin: 0px;
   }
-  #myXpPro figure #mbway {
+  .myXpPro figure #mbway {
     width: 36%;
   }
-
-  #myXpPro figure #mendel {
+  .myXpPro figure #mendel {
     width: 26%;
   }
   .borderSeparation {
     border-right: 2px solid #404727;
   }
-
   form input {
     width: 40%;
   }
-
   footer a i {
     font-size: 29px;
   }

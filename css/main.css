@@ -119,6 +119,31 @@ h2 {
   #menuDesk, .myXpPro figure {
     display: none;
   }
+
+  .navbar-customized button {
+    width: 100%;
+  }
+
+  .navbar-customized div {
+    height: 2px;
+    width: 27px;
+    background-color: red;
+    margin-bottom: 5px;
+  }
+
+  .navbar-customized #menuRed {
+    background-color: blue;
+  }
+
+  .navbar-customized #menuYellow {
+    background-color: yellow;
+  }
+
+  .navbar-customized #menuPurple {
+    background-color: purple;
+  }
+
+
   #myName {
     text-align: center;
     color: #404727;
@@ -447,6 +472,7 @@ h2 {
     border: 0px;
     border-right: 2px solid #404727;
   }
+
   .myXpPro figure {
     width: 50%;
     margin: 0px;

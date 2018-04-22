@@ -368,12 +368,37 @@
 
     </section>
 
-  <form class="" action="index.html" method="post" id="formulaire">
+  <form class="" action="traitement.php" method="post" id="formulaire">
     <p>FORMULAIRE DE CONTACT</p>
-    <input type="text" name="nom" value="" placeholder="Nom">
-    <input type="text" name="prenom" value="" placeholder="Prénom">
-    <input type="text" name="email" value="" placeholder="Email">
-    <input type="text" name="message" value="" id="message" placeholder="Message">
+    <p>
+      <label for="nom">Votre nom</label>
+      <input type="text" name="nom" value="" placeholder="Nom" size="30" maxlength="17">
+    </p>
+
+    <p>
+      <label for="prenom">Votre prénom</label>
+<input type="text" name="prenom" value="" placeholder="Prénom" size="30" maxlength="17">
+    </p>
+
+    <p>
+      <label for="telephone">Votre téléphone</label>
+      <input type="tel" name="telephone" value="">
+    </p>
+    <p>
+<label for="email">Votre email</label>
+<input type="text" name="email" value="" placeholder="Email" size="30" maxlength="37">
+    </p>
+
+    <p>
+<label for="comfirmEmail">Confirmer votre email</label>
+<input type="text" name="confirmEmail" value="" placeholder="Confirmer votre mail" size="30" maxlength="37">
+    </p>
+
+<p>
+<label for="message">Votre message</label>
+<textarea name="message" id="message" rows="8" cols="50" placeholder="Votre message"></textarea>
+</p>
+
     <input type="submit" name="envoyer" value="Envoyez" id="envoyer">
   </form>
 

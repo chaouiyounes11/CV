@@ -378,7 +378,6 @@ h2 {
     border: solid 1px #2d3714;
     height: 30px;
   }
-
   form #message {
     padding: 31px 24px;
     border: 1px solid #2d3714;
@@ -442,6 +441,13 @@ h2 {
 }
 
 @media (min-width: 730px) {
+  #navbar-desktop {
+    position: fixed;
+    z-index: 5;
+    background-color: white;
+    width: 100%;
+    top: 0%;
+  }
   #office {
     background-image: url(../img/office.jpg);
     height: 420px;
@@ -477,9 +483,10 @@ h2 {
   #menuDesk {
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size: 14px;
     border-top: .1px solid #404727;
+    border-bottom: .1px solid #404727;
     height: 50px;
     align-items: center;
   }
@@ -490,13 +497,20 @@ h2 {
   #menuDesk a {
     color: #404727;
     font-weight: bold;
+    width: 15%;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
     font-family: "Move";
   }
   #menuDesk a:hover {
     text-decoration: none;
-  }
-  #office {
-    margin: 0px;
+    background-color: #404727;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
   }
   .carousel-item p {
     display: flex;

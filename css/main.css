@@ -116,6 +116,37 @@ h2 {
 
 @media (min-width: 300px) {
   /*MOBILE VERSION*/
+
+
+.line-1{
+    width: 100%;
+    margin: 0px;
+    margin: auto;
+    border-right: 2px solid orange;
+    font-size: 24px;
+    font-weight: lighter;
+    text-align: center;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 900ms steps(44) 3.6s normal;
+
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 7em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: orange;}
+  to{border-right-color: white;}
+}
+}
+
   #menuDesk, .myXpPro figure {
     display: none;
   }

@@ -123,7 +123,7 @@ h2 {
     margin: 0px;
     margin: auto;
     border-right: 2px solid orange;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: lighter;
     text-align: center;
     text-align: center;
@@ -133,13 +133,13 @@ h2 {
 
 /* Animation */
 .anim-typewriter{
-  animation: typewriter 4s steps(44) 1s 1 normal both,
+  animation: typewriter 3s steps(44) 1s 1 normal both,
              blinkTextCursor 900ms steps(44) 3.6s normal;
 
 }
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 7em;}
+  to{width: 7.7em;}
 }
 @keyframes blinkTextCursor{
   from{border-right-color: orange;}
